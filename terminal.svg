@@ -139,17 +139,24 @@
   <text class="t cmd" x="40" y="270" opacity="0">skil<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.3s" fill="freeze" /></text>
   <text class="t cmd" x="40" y="270" opacity="0">skill<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.4s" fill="freeze" /></text>
   <text class="t cmd" x="40" y="270" opacity="0">skills<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.5s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills <animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.6s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills -<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.7s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills --<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.8s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills --l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.9s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills --li<animate attributeName="opacity" values="0;1" dur="0.05s" begin="6.0s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills --lis<animate attributeName="opacity" values="0;1" dur="0.05s" begin="6.1s" fill="freeze" /></text>
+  <text class="t cmd" x="40" y="270" opacity="0">skills --list<animate attributeName="opacity" values="0;1" dur="0.05s" begin="6.2s" fill="freeze" /></text>
 
   <!-- Cursor line 3 -->
   <rect class="cursor" x="40" y="258" width="8" height="16" rx="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.8s" fill="freeze" />
-    <animate attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" begin="5.6s" fill="freeze" />
-    <animate attributeName="x" values="40;48;57;65;73;81;89" dur="0.55s" begin="5.0s" fill="freeze" calcMode="discrete" />
+    <animate attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" begin="6.3s" fill="freeze" />
+    <animate attributeName="x" values="40;48;57;65;73;81;89;97;105;113;121;130;138;146" dur="1.25s" begin="5.0s" fill="freeze" calcMode="discrete" />
   </rect>
 
   <!-- Skills output -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.0s" fill="freeze" />
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.8s" fill="freeze" />
     <text class="t skill" x="24" y="300">Next.js</text>
     <text class="t sep" x="92" y="300">*</text>
     <text class="t skill" x="112" y="300">FastAPI</text>
@@ -161,7 +168,7 @@
     <text class="t skill" x="376" y="300">Python</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.2s" fill="freeze" />
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="7.0s" fill="freeze" />
     <text class="t skill" x="24" y="324">Supabase</text>
     <text class="t sep" x="104" y="324">*</text>
     <text class="t skill" x="124" y="324">Tailwind</text>
@@ -171,7 +178,7 @@
     <text class="t skill" x="304" y="324">Fly.io</text>
   </g>
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.4s" fill="freeze" />
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="7.2s" fill="freeze" />
     <text class="t skill" x="24" y="348">GCP</text>
     <text class="t sep" x="60" y="348">*</text>
     <text class="t skill" x="80" y="348">SQL</text>
@@ -181,7 +188,7 @@
 
   <!-- Final blinking cursor -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.8s" fill="freeze" />
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="7.5s" fill="freeze" />
     <text class="t prompt" x="24" y="394">$</text>
     <rect class="cursor" x="40" y="382" width="8" height="16" rx="1">
       <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0" dur="5s" repeatCount="indefinite" />
