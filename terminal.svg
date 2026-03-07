@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="440" viewBox="0 0 680 440">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="680" height="466" viewBox="0 0 680 466">
   <defs>
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0a0e17" />
@@ -42,15 +42,15 @@
   </style>
 
   <!-- Terminal chrome -->
-  <rect width="680" height="440" rx="12" fill="url(#bg-grad)" />
-  <rect width="680" height="440" rx="12" fill="none" stroke="url(#border-grad)" stroke-width="1.5" />
+  <rect width="680" height="466" rx="12" fill="url(#bg-grad)" />
+  <rect width="680" height="466" rx="12" fill="none" stroke="url(#border-grad)" stroke-width="1.5" />
   <rect width="680" height="38" rx="12" fill="url(#bar-grad)" />
   <rect width="680" height="10" y="28" fill="url(#bar-grad)" />
   <line x1="0" y1="38" x2="680" y2="38" stroke="#1e293b" stroke-width="1" />
   <circle cx="22" cy="19" r="6" fill="#ff5f57" opacity="0.9" />
   <circle cx="44" cy="19" r="6" fill="#febc2e" opacity="0.9" />
   <circle cx="66" cy="19" r="6" fill="#28c840" opacity="0.9" />
-  <text class="t" x="340" y="24" text-anchor="middle" fill="#475569" font-size="12">~</text>
+  <text class="t" x="340" y="24" text-anchor="middle" fill="#475569" font-size="12">~/vibes</text>
 
   <!-- Line 1: $ whoami -->
   <text class="t prompt" x="24" y="72" opacity="0">$
@@ -102,36 +102,28 @@
   <!-- Project rows -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.6s" fill="freeze" />
-    <a xlink:href="https://github.com/ianjamesburke/fido" target="_blank">
-      <text class="t pname" x="24" y="156">fido</text>
-    </a>
+    <text class="t pname" x="24" y="156">fido</text>
     <text class="t dots" x="140" y="156">................</text>
     <text class="t pdesc" x="280" y="156">a TUI social app for nerds</text>
     <text class="t plang" x="550" y="156">[Rust]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.8s" fill="freeze" />
-    <a xlink:href="https://github.com/ianjamesburke/dad-circles-v1" target="_blank">
-      <text class="t pname" x="24" y="180">dad-circles</text>
-    </a>
+    <text class="t pname" x="24" y="180">dad-circles</text>
     <text class="t dots" x="140" y="180">................</text>
     <text class="t pdesc" x="280" y="180">Helping Dads connect</text>
     <text class="t plang" x="550" y="180">[React]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.0s" fill="freeze" />
-    <a xlink:href="https://github.com/ianjamesburke/freelance-invoice-skill" target="_blank">
-      <text class="t pname" x="24" y="204">invoice-skill</text>
-    </a>
+    <text class="t pname" x="24" y="204">invoice-skill</text>
     <text class="t dots" x="140" y="204">................</text>
     <text class="t pdesc" x="280" y="204">Freelance time tracking &amp; invoicing</text>
     <text class="t plang" x="550" y="204">[JS]</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.2s" fill="freeze" />
-    <a xlink:href="https://github.com/ianjamesburke/telegram-bot-fly-io-starter" target="_blank">
-      <text class="t pname" x="24" y="228">telegram-bot</text>
-    </a>
+    <text class="t pname" x="24" y="228">telegram-bot</text>
     <text class="t dots" x="140" y="228">................</text>
     <text class="t pdesc" x="280" y="228">Telegram bot starter on Fly.io</text>
     <text class="t plang" x="550" y="228">[Python]</text>
@@ -178,12 +170,20 @@
     <text class="t sep" x="284" y="324">*</text>
     <text class="t skill" x="304" y="324">Fly.io</text>
   </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.4s" fill="freeze" />
+    <text class="t skill" x="24" y="348">GCP</text>
+    <text class="t sep" x="60" y="348">*</text>
+    <text class="t skill" x="80" y="348">SQL</text>
+    <text class="t sep" x="116" y="348">*</text>
+    <text class="t skill" x="136" y="348">Svelte</text>
+  </g>
 
   <!-- Final blinking cursor -->
   <g opacity="0">
-    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.5s" fill="freeze" />
-    <text class="t prompt" x="24" y="370">$</text>
-    <rect class="cursor" x="40" y="358" width="8" height="16" rx="1">
+    <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.8s" fill="freeze" />
+    <text class="t prompt" x="24" y="394">$</text>
+    <rect class="cursor" x="40" y="382" width="8" height="16" rx="1">
       <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0" dur="5s" repeatCount="indefinite" />
     </rect>
   </g>
