@@ -8,3 +8,7 @@
   <a href="https://github.com/ianjamesburke/freelance-invoice-skill"><b>invoice-skill</b></a> &middot;
   <a href="https://github.com/ianjamesburke/kill-tony-archive"><b>kill-tony-archive</b></a>
 </p>
+
+<p align="center">
+  <a href="https://x.com/atfostermusic">𝕏 @atfostermusic</a>
+</p>
