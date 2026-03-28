@@ -4,66 +4,61 @@
 
 <br/>
 
-<table>
+<table width="100%" cellspacing="0" cellpadding="0">
   <tr>
-    <td valign="top" width="50%">
+    <td width="50%" valign="top" style="padding:10px">
       <a href="https://github.com/ianjamesburke/PLEXI">
-        <img src="screenshots/plexi.png" width="100%" alt="PLEXI" style="border-radius:6px"/>
+        <img src="screenshots/plexi.png" width="100%" style="border-radius:8px;display:block" alt="Plexi"/>
       </a>
-      <br/><br/>
-      <strong><a href="https://github.com/ianjamesburke/PLEXI">Plexi</a></strong>
       <br/>
-      A multi-dimensional terminal multiplexer for the agentic era
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
-      <br/><br/>
-      <a href="https://github.com/ianjamesburke/PLEXI">GitHub →</a>
+      <strong><a href="https://github.com/ianjamesburke/PLEXI">Plexi</a></strong><br/>
+      <sub>A multi-dimensional terminal multiplexer for the agentic era</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Rust-CE422B?style=flat&logo=rust&logoColor=white" alt="Rust"/>
+      &nbsp;
+      <a href="https://github.com/ianjamesburke/PLEXI"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
     </td>
-    <td valign="top" width="50%">
+    <td width="50%" valign="top" style="padding:10px">
       <a href="https://killtonyarchive.com">
-        <img src="screenshots/kill-tony-archive.png" width="100%" alt="Kill Tony Archive" style="border-radius:6px"/>
+        <img src="screenshots/kill-tony-archive.png" width="100%" style="border-radius:8px;display:block" alt="Kill Tony Archive"/>
       </a>
-      <br/><br/>
-      <strong><a href="https://killtonyarchive.com">Kill Tony Archive</a></strong>
       <br/>
-      Transcribes, analyzes, and ranks every 1-minute set from the Kill Tony podcast
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white" alt="Svelte"/>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-      <br/><br/>
-      <a href="https://github.com/ianjamesburke/kill-tony-archive">GitHub →</a>
+      <strong><a href="https://killtonyarchive.com">Kill Tony Archive</a></strong><br/>
+      <sub>Transcribes, analyzes, and ranks every 1-minute set from the Kill Tony podcast</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Svelte-FF3E00?style=flat&logo=svelte&logoColor=white" alt="Svelte"/>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python"/>
+      &nbsp;
+      <a href="https://github.com/ianjamesburke/kill-tony-archive"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
     </td>
   </tr>
+  <tr><td colspan="2" height="8"></td></tr>
   <tr>
-    <td valign="top" width="50%">
+    <td width="50%" valign="top" style="padding:10px">
       <a href="https://fido-prod-ijb.web.app/">
-        <img src="screenshots/fido.png" width="100%" alt="Fido" style="border-radius:6px"/>
+        <img src="screenshots/fido.png" width="100%" style="border-radius:8px;display:block" alt="Fido"/>
       </a>
-      <br/><br/>
-      <strong><a href="https://fido-prod-ijb.web.app/">Fido</a></strong>
       <br/>
-      A TUI social app for nerds
-      <br/><br/>
-      <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
-      <br/><br/>
-      <a href="https://github.com/ianjamesburke/fido">GitHub →</a>
+      <strong><a href="https://fido-prod-ijb.web.app/">Fido</a></strong><br/>
+      <sub>A TUI social app for nerds</sub><br/><br/>
+      <img src="https://img.shields.io/badge/Rust-CE422B?style=flat&logo=rust&logoColor=white" alt="Rust"/>
+      &nbsp;
+      <a href="https://github.com/ianjamesburke/fido"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
     </td>
-    <td valign="top" width="50%">
+    <td width="50%" valign="top" style="padding:10px">
       <a href="https://dadcircles.com/">
-        <img src="screenshots/dad-circles.png" width="100%" alt="Dad Circles" style="border-radius:6px"/>
+        <img src="screenshots/dad-circles.png" width="100%" style="border-radius:8px;display:block" alt="Dad Circles"/>
       </a>
-      <br/><br/>
-      <strong><a href="https://dadcircles.com/">Dad Circles</a></strong>
       <br/>
-      Helping dads connect
-      <br/><br/>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-      <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
-      <br/><br/>
-      <a href="https://github.com/ianjamesburke/dad-circles-v1">GitHub →</a>
+      <strong><a href="https://dadcircles.com/">Dad Circles</a></strong><br/>
+      <sub>Helping dads connect</sub><br/><br/>
+      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/>
+      <img src="https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black" alt="React"/>
+      &nbsp;
+      <a href="https://github.com/ianjamesburke/dad-circles-v1"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub"/></a>
     </td>
   </tr>
 </table>
+
+<br/>
 
 <p align="center">
   <a href="https://x.com/atfostermusic">𝕏 @atfostermusic</a>
