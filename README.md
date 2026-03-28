@@ -11,7 +11,7 @@
         <img src="screenshots/plexi.png" width="100%" alt="PLEXI" style="border-radius:6px"/>
       </a>
       <br/><br/>
-      <strong><a href="https://github.com/ianjamesburke/PLEXI">PLEXI</a></strong>
+      <strong><a href="https://github.com/ianjamesburke/PLEXI">Plexi</a></strong>
       <br/>
       A multi-dimensional terminal multiplexer for the agentic era
       <br/><br/>
@@ -24,7 +24,7 @@
         <img src="screenshots/kill-tony-archive.png" width="100%" alt="Kill Tony Archive" style="border-radius:6px"/>
       </a>
       <br/><br/>
-      <strong><a href="https://killtonyarchive.com">kill-tony-archive</a></strong>
+      <strong><a href="https://killtonyarchive.com">Kill Tony Archive</a></strong>
       <br/>
       Transcribes, analyzes, and ranks every 1-minute set from the Kill Tony podcast
       <br/><br/>
@@ -40,7 +40,7 @@
         <img src="screenshots/fido.png" width="100%" alt="Fido" style="border-radius:6px"/>
       </a>
       <br/><br/>
-      <strong><a href="https://fido-prod-ijb.web.app/">fido</a></strong>
+      <strong><a href="https://fido-prod-ijb.web.app/">Fido</a></strong>
       <br/>
       A TUI social app for nerds
       <br/><br/>
@@ -53,7 +53,7 @@
         <img src="screenshots/dad-circles.png" width="100%" alt="Dad Circles" style="border-radius:6px"/>
       </a>
       <br/><br/>
-      <strong><a href="https://dadcircles.com/">dad-circles</a></strong>
+      <strong><a href="https://dadcircles.com/">Dad Circles</a></strong>
       <br/>
       Helping dads connect
       <br/><br/>
