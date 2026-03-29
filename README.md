@@ -15,7 +15,7 @@
       <sub>A multi-dimensional terminal multiplexer for the agentic era</sub><br/><br/>
       <img src="badges/rust.svg" alt="Rust"/>
       &nbsp;
-      <a href="https://github.com/ianjamesburke/PLEXI">GitHub ↗</a>
+      <a href="https://github.com/ianjamesburke/PLEXI"><img src="badges/github.svg" alt="GitHub"/></a>
     </td>
     <td width="50%" valign="top" style="padding:10px">
       <a href="https://killtonyarchive.com">
@@ -27,7 +27,7 @@
       <img src="badges/svelte.svg" alt="Svelte"/>
       <img src="badges/python.svg" alt="Python"/>
       &nbsp;
-      <a href="https://github.com/ianjamesburke/kill-tony-archive">GitHub ↗</a>
+      <a href="https://github.com/ianjamesburke/kill-tony-archive"><img src="badges/github.svg" alt="GitHub"/></a>
     </td>
   </tr>
   <tr><td colspan="2" height="8"></td></tr>
@@ -41,7 +41,7 @@
       <sub>A TUI social app for nerds</sub><br/><br/>
       <img src="badges/rust.svg" alt="Rust"/>
       &nbsp;
-      <a href="https://github.com/ianjamesburke/fido">GitHub ↗</a>
+      <a href="https://github.com/ianjamesburke/fido"><img src="badges/github.svg" alt="GitHub"/></a>
     </td>
     <td width="50%" valign="top" style="padding:10px">
       <a href="https://dadcircles.com/">
@@ -53,7 +53,7 @@
       <img src="badges/typescript.svg" alt="TypeScript"/>
       <img src="badges/react.svg" alt="React"/>
       &nbsp;
-      <a href="https://github.com/ianjamesburke/dad-circles-v1">GitHub ↗</a>
+      <a href="https://github.com/ianjamesburke/dad-circles-v1"><img src="badges/github.svg" alt="GitHub"/></a>
     </td>
   </tr>
 </table>
