@@ -1,40 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="394" viewBox="0 0 720 394">
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="394" viewBox="0 0 720 394">
   <defs>
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e17" />
-      <stop offset="100%" style="stop-color:#111827" />
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="100%" stop-color="#111827" />
     </linearGradient>
     <linearGradient id="bar-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#1a1f2e" />
-      <stop offset="100%" style="stop-color:#151a28" />
+      <stop offset="0%" stop-color="#1a1f2e" />
+      <stop offset="100%" stop-color="#151a28" />
     </linearGradient>
     <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.4" />
-      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.2" />
-      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.4" />
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.4" />
+      <stop offset="50%" stop-color="#8b5cf6" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.4" />
     </linearGradient>
-    <filter id="glow-cyan">
-      <feGaussianBlur stdDeviation="1.5" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
-    <filter id="glow-orange">
-      <feGaussianBlur stdDeviation="1" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
   </defs>
-
-  <style>
-    .t {
-      font-family: 'SF Mono', 'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace;
-      font-size: 13.5px;
-    }
-    .prompt { fill: #22d3ee; filter: url(#glow-cyan); }
-    .cmd { fill: #e2e8f0; }
-    .name { fill: #f0abfc; font-size: 15px; letter-spacing: 0.5px; }
-    .skill { fill: #fbbf24; filter: url(#glow-orange); font-size: 13px; }
-    .sep { fill: #334155; font-size: 13px; }
-    .cursor { fill: #22d3ee; filter: url(#glow-cyan); }
-  </style>
 
   <!-- Terminal chrome -->
   <rect width="720" height="394" rx="12" fill="url(#bg-grad)" />
@@ -45,51 +24,51 @@
   <circle cx="22" cy="19" r="6" fill="#ff5f57" opacity="0.9" />
   <circle cx="44" cy="19" r="6" fill="#febc2e" opacity="0.9" />
   <circle cx="66" cy="19" r="6" fill="#28c840" opacity="0.9" />
-  <text class="t" x="360" y="24" text-anchor="middle" fill="#475569" font-size="12">~/vibes</text>
+  <text x="360" y="24" text-anchor="middle" fill="#475569" font-size="12" font-family="'SF Mono','Fira Code',monospace">~/vibes</text>
 
   <!-- Line 1: $ whoami -->
-  <text class="t prompt" x="24" y="72" opacity="0">$
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#22d3ee" x="24" y="72" opacity="0">$
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="0.3s" fill="freeze" />
   </text>
-  <text class="t cmd" x="40" y="72" opacity="0">w<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.5s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="72" opacity="0">wh<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.6s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="72" opacity="0">who<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.7s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="72" opacity="0">whoa<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.8s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="72" opacity="0">whoam<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.9s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="72" opacity="0">whoami<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.0s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">w<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.5s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">wh<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.6s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">who<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.7s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">whoa<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.8s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">whoam<animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.9s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="72" opacity="0">whoami<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.0s" fill="freeze" /></text>
 
   <!-- Cursor line 1 -->
-  <rect class="cursor" x="40" y="60" width="8" height="16" rx="1" opacity="0">
+  <rect fill="#22d3ee" x="40" y="60" width="8" height="16" rx="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.05s" begin="0.3s" fill="freeze" />
     <animate attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" begin="1.1s" fill="freeze" />
     <animate attributeName="x" values="40;48;57;65;73;81;89" dur="0.55s" begin="0.5s" fill="freeze" calcMode="discrete" />
   </rect>
 
   <!-- Output: ian james burke -->
-  <text class="t name" x="24" y="96" opacity="0">ian james burke
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="15" fill="#f0abfc" letter-spacing="0.5" x="24" y="96" opacity="0">ian james burke
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.3s" fill="freeze" />
   </text>
 
   <!-- Line 2: $ skills --list -->
-  <text class="t prompt" x="24" y="128" opacity="0">$
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#22d3ee" x="24" y="128" opacity="0">$
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze" />
   </text>
-  <text class="t cmd" x="40" y="128" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.8s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">sk<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.9s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">ski<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.0s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skil<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.1s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skill<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.2s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.3s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills <animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.4s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills -<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.5s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills --<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.6s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills --l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.7s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills --li<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.8s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills --lis<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.9s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="128" opacity="0">skills --list<animate attributeName="opacity" values="0;1" dur="0.05s" begin="3.0s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">s<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.8s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">sk<animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.9s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">ski<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.0s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skil<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.1s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skill<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.2s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.3s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills <animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.4s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills -<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.5s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills --<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.6s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills --l<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.7s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills --li<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.8s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills --lis<animate attributeName="opacity" values="0;1" dur="0.05s" begin="2.9s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="128" opacity="0">skills --list<animate attributeName="opacity" values="0;1" dur="0.05s" begin="3.0s" fill="freeze" /></text>
 
   <!-- Cursor line 2 -->
-  <rect class="cursor" x="40" y="116" width="8" height="16" rx="1" opacity="0">
+  <rect fill="#22d3ee" x="40" y="116" width="8" height="16" rx="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.05s" begin="1.6s" fill="freeze" />
     <animate attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" begin="3.1s" fill="freeze" />
     <animate attributeName="x" values="40;48;57;65;73;81;89;97;105;113;121;130;138;146" dur="1.25s" begin="1.8s" fill="freeze" calcMode="discrete" />
@@ -98,54 +77,54 @@
   <!-- Skills output -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.4s" fill="freeze" />
-    <text class="t skill" x="24" y="158">Next.js</text>
-    <text class="t sep" x="92" y="158">*</text>
-    <text class="t skill" x="112" y="158">FastAPI</text>
-    <text class="t sep" x="180" y="158">*</text>
-    <text class="t skill" x="200" y="158">Rust</text>
-    <text class="t sep" x="248" y="158">*</text>
-    <text class="t skill" x="268" y="158">TypeScript</text>
-    <text class="t sep" x="356" y="158">*</text>
-    <text class="t skill" x="376" y="158">Python</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="24" y="158">Next.js</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="92" y="158">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="112" y="158">FastAPI</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="180" y="158">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="200" y="158">Rust</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="248" y="158">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="268" y="158">TypeScript</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="356" y="158">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="376" y="158">Python</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.55s" fill="freeze" />
-    <text class="t skill" x="24" y="182">Supabase</text>
-    <text class="t sep" x="104" y="182">*</text>
-    <text class="t skill" x="124" y="182">Tailwind</text>
-    <text class="t sep" x="204" y="182">*</text>
-    <text class="t skill" x="224" y="182">Vercel</text>
-    <text class="t sep" x="284" y="182">*</text>
-    <text class="t skill" x="304" y="182">Fly.io</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="24" y="182">Supabase</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="104" y="182">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="124" y="182">Tailwind</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="204" y="182">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="224" y="182">Vercel</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="284" y="182">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="304" y="182">Fly.io</text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="3.7s" fill="freeze" />
-    <text class="t skill" x="24" y="206">GCP</text>
-    <text class="t sep" x="60" y="206">*</text>
-    <text class="t skill" x="80" y="206">SQL</text>
-    <text class="t sep" x="116" y="206">*</text>
-    <text class="t skill" x="136" y="206">Svelte</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="24" y="206">GCP</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="60" y="206">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="80" y="206">SQL</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#334155" x="116" y="206">*</text>
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13" fill="#fbbf24" x="136" y="206">Svelte</text>
   </g>
 
   <!-- Line 3: $ cat fish.svg -->
-  <text class="t prompt" x="24" y="252" opacity="0">$
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#22d3ee" x="24" y="252" opacity="0">$
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="4.0s" fill="freeze" />
   </text>
-  <text class="t cmd" x="40" y="252" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.2s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">ca<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.3s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.4s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.5s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat f<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.6s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fi<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.7s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fis<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.8s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fish<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.9s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fish.<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.0s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fish.s<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.1s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fish.sv<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.2s" fill="freeze" /></text>
-  <text class="t cmd" x="40" y="252" opacity="0">cat fish.svg<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.3s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">c<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.2s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">ca<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.3s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.4s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.5s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat f<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.6s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fi<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.7s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fis<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.8s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fish<animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.9s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fish.<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.0s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fish.s<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.1s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fish.sv<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.2s" fill="freeze" /></text>
+  <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#e2e8f0" x="40" y="252" opacity="0">cat fish.svg<animate attributeName="opacity" values="0;1" dur="0.05s" begin="5.3s" fill="freeze" /></text>
 
   <!-- Cursor line 3 -->
-  <rect class="cursor" x="40" y="240" width="8" height="16" rx="1" opacity="0">
+  <rect fill="#22d3ee" x="40" y="240" width="8" height="16" rx="1" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.05s" begin="4.0s" fill="freeze" />
     <animate attributeName="opacity" values="1;0;1;0;1;0" dur="1.5s" begin="5.4s" fill="freeze" />
     <animate attributeName="x" values="40;48;57;65;73;81;89;97;105;113;121;130;138" dur="1.2s" begin="4.2s" fill="freeze" calcMode="discrete" />
@@ -155,32 +134,26 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.3s" begin="5.7s" fill="freeze" />
 
-    <!-- Sand bottom -->
     <line x1="30" y1="346" x2="690" y2="346" stroke="#b8860b" stroke-width="1" opacity="0.2" />
-
-    <!-- Pebbles -->
     <ellipse cx="200" cy="347" rx="4" ry="2" fill="#64748b" opacity="0.3" />
     <ellipse cx="380" cy="347" rx="3" ry="1.5" fill="#475569" opacity="0.25" />
     <ellipse cx="540" cy="347" rx="3.5" ry="2" fill="#64748b" opacity="0.3" />
 
-    <!-- Seaweed 1 -->
+    <!-- Seaweed -->
     <path d="M80,346 C75,333 85,323 80,313" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6">
       <animate attributeName="d" values="M80,346 C75,333 85,323 80,313;M80,346 C85,333 75,323 80,313;M80,346 C75,333 85,323 80,313" dur="4s" repeatCount="indefinite" />
     </path>
-    <!-- Seaweed 2 -->
     <path d="M95,346 C100,336 90,326 95,318" stroke="#16a34a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5">
       <animate attributeName="d" values="M95,346 C100,336 90,326 95,318;M95,346 C90,336 100,326 95,318;M95,346 C100,336 90,326 95,318" dur="3.5s" repeatCount="indefinite" />
     </path>
-    <!-- Seaweed 3 -->
     <path d="M600,346 C595,333 605,323 600,310" stroke="#22c55e" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.6">
       <animate attributeName="d" values="M600,346 C595,333 605,323 600,310;M600,346 C605,333 595,323 600,310;M600,346 C595,333 605,323 600,310" dur="4.5s" repeatCount="indefinite" />
     </path>
-    <!-- Seaweed 4 -->
     <path d="M615,346 C620,338 610,330 615,322" stroke="#16a34a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5">
       <animate attributeName="d" values="M615,346 C620,338 610,330 615,322;M615,346 C610,338 620,330 615,322;M615,346 C620,338 610,330 615,322" dur="3.8s" repeatCount="indefinite" />
     </path>
 
-    <!-- Fish 1 - cyan, swimming right -->
+    <!-- Fish 1 - cyan -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0;0,-7;0,3;0,-4;0,0" dur="6.3s" repeatCount="indefinite" />
       <g>
@@ -189,9 +162,7 @@
           keySplines="0.4 0 0.6 1;0.1 0 0.9 1;0.4 0 0.6 1;0.3 0 0.7 1" />
         <path d="M-8,0 C-8,-5 0,-7 6,-5 C10,-3 12,-1 12,0 C12,1 10,3 6,5 C0,7 -8,5 -8,0 Z" fill="#22d3ee" opacity="0.85" />
         <path d="M-8,0 C-12,-5 -17,-7 -19,-4 C-15,-1 -15,1 -19,4 C-17,7 -12,5 -8,0 Z" fill="#22d3ee" opacity="0.7">
-          <animate attributeName="d"
-            values="M-8,0 C-12,-5 -17,-7 -19,-4 C-15,-1 -15,1 -19,4 C-17,7 -12,5 -8,0 Z;M-8,0 C-12,-3 -16,-4 -18,-2 C-14,0 -14,0 -18,2 C-16,4 -12,3 -8,0 Z;M-8,0 C-12,-5 -17,-7 -19,-4 C-15,-1 -15,1 -19,4 C-17,7 -12,5 -8,0 Z"
-            dur="0.5s" repeatCount="indefinite" />
+          <animate attributeName="d" values="M-8,0 C-12,-5 -17,-7 -19,-4 C-15,-1 -15,1 -19,4 C-17,7 -12,5 -8,0 Z;M-8,0 C-12,-3 -16,-4 -18,-2 C-14,0 -14,0 -18,2 C-16,4 -12,3 -8,0 Z;M-8,0 C-12,-5 -17,-7 -19,-4 C-15,-1 -15,1 -19,4 C-17,7 -12,5 -8,0 Z" dur="0.5s" repeatCount="indefinite" />
         </path>
         <path d="M-2,-5 C-1,-9 3,-9 5,-5" fill="#22d3ee" opacity="0.6" />
         <path d="M2,2 C3,5 0,6 -1,3" fill="#1ca8bf" opacity="0.5" />
@@ -200,7 +171,7 @@
       </g>
     </g>
 
-    <!-- Fish 2 - pink, swimming left -->
+    <!-- Fish 2 - pink -->
     <g>
       <animateTransform attributeName="transform" type="translate" values="0,0;0,5;0,-6;0,3;0,0" dur="7.7s" repeatCount="indefinite" />
       <g>
@@ -209,9 +180,7 @@
           keySplines="0.3 0 0.7 1;0.1 0 0.9 1;0.4 0 0.6 1;0.3 0 0.7 1" />
         <path d="M7,0 C7,-4 0,-6 -5,-4 C-8,-2 -10,0 -10,0 C-8,2 -5,4 0,6 C7,4 7,0 7,0 Z" fill="#f472b6" opacity="0.85" />
         <path d="M7,0 C11,-4 15,-6 17,-3 C13,-1 13,1 17,3 C15,6 11,4 7,0 Z" fill="#f472b6" opacity="0.7">
-          <animate attributeName="d"
-            values="M7,0 C11,-4 15,-6 17,-3 C13,-1 13,1 17,3 C15,6 11,4 7,0 Z;M7,0 C11,-2 14,-3 16,-1 C12,0 12,0 16,1 C14,3 11,2 7,0 Z;M7,0 C11,-4 15,-6 17,-3 C13,-1 13,1 17,3 C15,6 11,4 7,0 Z"
-            dur="0.6s" repeatCount="indefinite" />
+          <animate attributeName="d" values="M7,0 C11,-4 15,-6 17,-3 C13,-1 13,1 17,3 C15,6 11,4 7,0 Z;M7,0 C11,-2 14,-3 16,-1 C12,0 12,0 16,1 C14,3 11,2 7,0 Z;M7,0 C11,-4 15,-6 17,-3 C13,-1 13,1 17,3 C15,6 11,4 7,0 Z" dur="0.6s" repeatCount="indefinite" />
         </path>
         <path d="M2,-4 C1,-8 -3,-7 -4,-4" fill="#f472b6" opacity="0.6" />
         <path d="M-2,2 C-3,4 0,5 1,3" fill="#d946a8" opacity="0.5" />
@@ -238,8 +207,8 @@
   <!-- Final blinking cursor -->
   <g opacity="0">
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="6.0s" fill="freeze" />
-    <text class="t prompt" x="24" y="372">$</text>
-    <rect class="cursor" x="40" y="360" width="8" height="16" rx="1">
+    <text font-family="'SF Mono','Fira Code',monospace" font-size="13.5" fill="#22d3ee" x="24" y="372">$</text>
+    <rect fill="#22d3ee" x="40" y="360" width="8" height="16" rx="1">
       <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;1;0" dur="5s" repeatCount="indefinite" />
     </rect>
   </g>
