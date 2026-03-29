@@ -71,7 +71,7 @@
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.3s" fill="freeze" />
   </text>
 
-  <!-- Line 2: $ skills --list -->
+  <!-- Line 2: $ skills -->
   <text class="t prompt" x="24" y="128" opacity="0">$
     <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.6s" fill="freeze" />
   </text>
