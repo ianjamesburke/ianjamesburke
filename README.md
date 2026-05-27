@@ -33,11 +33,11 @@
   <tr><td colspan="2" height="8"></td></tr>
   <tr>
     <td width="50%" valign="top" style="padding:10px">
-      <a href="https://fido-prod-ijb.web.app/">
+      <a href="https://fido-web-production.up.railway.app/">
         <img src="screenshots/fido.png" width="100%" style="border-radius:8px;display:block" alt="Fido"/>
       </a>
       <br/>
-      <strong><a href="https://fido-prod-ijb.web.app/">Fido</a></strong><br/>
+      <strong><a href="https://fido-web-production.up.railway.app/">Fido</a></strong><br/>
       <sub>A TUI social app for nerds</sub><br/><br/>
       <img src="https://img.shields.io/badge/Rust-CE422B?style=flat&logo=rust&logoColor=white" alt="Rust"/>
       &nbsp;
