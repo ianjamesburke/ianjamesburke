@@ -60,6 +60,14 @@
 
 <br/>
 
+<p align="left">
+  <strong><a href="https://github.com/ianjamesburke/stint">Stint</a></strong> &mdash; Git-tracked sprint planning. Tasks are markdown files, sprints are ordered lists, everything lives in <code>.stint/</code> inside your repo.<br/><br/>
+  <strong><a href="https://github.com/ianjamesburke/entheocast">Entheocast</a></strong> &mdash; Psychedelic clinical trials, regulatory updates, and research aggregated weekly into a structured open dataset. Data, not commentary.<br/><br/>
+  <strong><a href="https://github.com/ianjamesburke/moss">Moss</a></strong> &mdash; A small language that reads like English and compiles to Rust. Learn it in a day.
+</p>
+
+<br/>
+
 <p align="center">
   <a href="https://x.com/atfostermusic">𝕏 @atfostermusic</a>
 </p>
