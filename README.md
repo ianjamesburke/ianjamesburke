@@ -7,7 +7,7 @@
 <table width="100%" cellspacing="0" cellpadding="8" border="0">
 
   <tr>
-    <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/PLEXI"><img src="screenshots/plexi.png" width="80" height="60" style="border-radius:6px;object-fit:cover;display:block" alt="Plexi"/></a></td>
+    <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/PLEXI"><img src="screenshots/plexi.png" width="90" height="68" style="border-radius:6px;object-fit:cover;display:block" alt="Plexi"/></a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/PLEXI">Plexi</a></strong><br/>
       <sub>A multi-dimensional terminal multiplexer for the agentic era</sub><br/>
@@ -17,7 +17,7 @@
   </tr>
 
   <tr>
-    <td width="96" valign="middle"><a href="https://killtonyarchive.com"><img src="screenshots/kill-tony-archive.png" width="80" height="60" style="border-radius:6px;object-fit:cover;display:block" alt="Kill Tony Archive"/></a></td>
+    <td width="96" valign="middle"><a href="https://killtonyarchive.com"><img src="screenshots/kill-tony-archive.png" width="90" height="68" style="border-radius:6px;object-fit:cover;display:block" alt="Kill Tony Archive"/></a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/kill-tony-archive">Kill Tony Archive</a></strong><br/>
       <sub>Transcribes, analyzes, and ranks every 1-minute set from 500+ episodes</sub><br/>
@@ -28,7 +28,7 @@
   </tr>
 
   <tr>
-    <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/nooise"><img src="screenshots/nooise.png" width="80" height="60" style="border-radius:6px;object-fit:cover;display:block" alt="nooise"/></a></td>
+    <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/nooise"><img src="screenshots/nooise.png" width="90" height="68" style="border-radius:6px;object-fit:cover;display:block" alt="nooise"/></a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/nooise">nooise</a></strong><br/>
       <sub>Ambient music generator for the terminal — Rust synth engine with live controls</sub><br/>
@@ -38,7 +38,7 @@
   </tr>
 
   <tr>
-    <td width="96" valign="middle"><a href="https://fido-web-production.up.railway.app/"><img src="screenshots/fido.png" width="80" height="60" style="border-radius:6px;object-fit:cover;display:block" alt="Fido"/></a></td>
+    <td width="96" valign="middle"><a href="https://fido-web-production.up.railway.app/"><img src="screenshots/fido.png" width="90" height="68" style="border-radius:6px;object-fit:cover;display:block" alt="Fido"/></a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/fido">Fido</a></strong><br/>
       <sub>A TUI social app for nerds — real-time chat and community in your terminal</sub><br/>
@@ -48,7 +48,7 @@
   </tr>
 
   <tr>
-    <td width="96" valign="middle"><a href="https://dadcircles.com/"><img src="screenshots/dad-circles.png" width="80" height="60" style="border-radius:6px;object-fit:cover;display:block" alt="Dad Circles"/></a></td>
+    <td width="96" valign="middle"><a href="https://dadcircles.com/"><img src="screenshots/dad-circles.png" width="90" height="68" style="border-radius:6px;object-fit:cover;display:block" alt="Dad Circles"/></a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/dad-circles-v1">Dad Circles</a></strong><br/>
       <sub>Location-first matching for local dads — privacy-first, no feeds, no likes</sub><br/>
@@ -60,7 +60,7 @@
 
   <tr>
     <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/stint">
-      <img src="https://img.shields.io/badge/%20-stint-3b1d6e?style=flat&labelColor=1e1040" width="80" height="60" alt="Stint"/>
+      <img src="screenshots/stint.svg" width="90" height="68" alt="Stint"/>
     </a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/stint">Stint</a></strong><br/>
@@ -72,7 +72,7 @@
 
   <tr>
     <td width="96" valign="middle"><a href="https://ianjamesburke.github.io/entheocast">
-      <img src="https://img.shields.io/badge/%20-entheocast-0d3d3a?style=flat&labelColor=061a20" width="80" height="60" alt="Entheocast"/>
+      <img src="screenshots/entheocast.svg" width="90" height="68" alt="Entheocast"/>
     </a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/entheocast">Entheocast</a></strong><br/>
@@ -85,7 +85,7 @@
 
   <tr>
     <td width="96" valign="middle"><a href="https://github.com/ianjamesburke/moss">
-      <img src="https://img.shields.io/badge/%20-moss-0f3320?style=flat&labelColor=071a0e" width="80" height="60" alt="Moss"/>
+      <img src="screenshots/moss.svg" width="90" height="68" alt="Moss"/>
     </a></td>
     <td valign="middle" style="padding:8px 16px">
       <strong><a href="https://github.com/ianjamesburke/moss">Moss</a></strong><br/>
